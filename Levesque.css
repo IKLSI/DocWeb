@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    pading: 0;
+}
+
+#titre {
+    height: 10%;
+    background: #f9dfa9;
+}
+
+#menu {
+    position: absolute;
+    width: 222px;
+    height: 103.2%;
+    margin-top: 96px;
+    border: 2px solid darkred;
+    text-align: left;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 65px;
+    color: white;
+    background: #1b1b1b;
+}
+
+#menu hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: midnightblue;
+}
+
+#texte {
+    font-size: 17px;
+    color: white;
+}
+
+#contenu {
+    height: 100%;
+    margin-left: 220px;
+    background: #d18d72;
+}
+
+#auteurs {
+    height: 10%;
+    background: #251d1b;
+}
+
+h3 {
+    text-align: center;
+    font-size: 22px;
+}
+
+nav li a:hover {
+    color: cyan!important;
+    background: #1e1e1e!important;
+}
+
+li {
+    margin: 8px;
+    color: white;
+}
+
+h2 {
+    margin: 15px;
+    font-size: 18px;
+}
+
+p{
+    margin: 36px;
+}
+
+.Images {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ImagesGauche{
+    display: block;
+     margin-left: 30%;
+}
+
+.ImagesDroite{
+    display: block;
+    margin-right: 30%;
+}
