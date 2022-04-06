@@ -3,7 +3,6 @@
 * {
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
-    white-space: nowrap;
     scroll-behavior: smooth;
 }
 
@@ -24,9 +23,9 @@ body {
 
 #menu {
     position: absolute;
-    width: 222px;
-    height: 103.2%;
-    margin-top: 96px;
+    width: 14.5%;
+    height: 100%;
+    margin-top: 4.35%;
     border: 2px solid darkred;
     text-align: left;
     font-size: 10px;
@@ -34,6 +33,7 @@ body {
     line-height: 65px;
     color: white;
     background: #1b1b1b;
+    top: 1.25%;
 }
 
 #menu hr {
@@ -42,20 +42,22 @@ body {
     border-color: midnightblue;
 }
 
-#texte {
+.texte {
     font-size: 17px;
-    color: white;
+    color: antiquewhite;
 }
 
 #contenu {
     height: 100%;
     margin-left: 220px;
     background: #d18d72;
+    font-size: 14px;
 }
 
 #auteurs {
     height: 10%;
     background: #251d1b;
+    color: antiquewhite;
 }
 
 h3 {
@@ -76,10 +78,11 @@ li {
 h2 {
     margin: 15px;
     font-size: 18px;
+    margin-top: 0;
 }
 
 p{
-    margin: 36px;
+    margin-left: 1%;
 }
 
 .Images {
@@ -97,3 +100,4 @@ p{
     display: block;
     margin-right: 30%;
 }
+
