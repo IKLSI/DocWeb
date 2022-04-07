@@ -23,6 +23,7 @@ body {
 
 #menu {
     position: absolute;
+    top: 1.25%;
     width: 14.5%;
     height: 100%;
     margin-top: 4.35%;
@@ -33,7 +34,6 @@ body {
     line-height: 65px;
     color: white;
     background: #1b1b1b;
-    top: 1.25%;
 }
 
 #menu hr {
@@ -50,14 +50,20 @@ body {
 #contenu {
     height: 100%;
     margin-left: 220px;
-    background: #d18d72;
     font-size: 14px;
+    background: #d18d72;
 }
 
 #auteurs {
     height: 10%;
-    background: #251d1b;
     color: antiquewhite;
+    background: #251d1b;
+}
+
+h2 {
+    margin: 15px;
+    margin-top: 0;
+    font-size: 18px;
 }
 
 h3 {
@@ -65,24 +71,27 @@ h3 {
     font-size: 22px;
 }
 
-nav li a:hover {
+p {
+    margin-left: 3%;
+}
+
+blockquote p {
+    margin-left: 0;
+}
+
+li {
+    font-size: 17px;
+    color: white;
+}
+
+li a:hover {
     color: cyan!important;
     background: #1e1e1e!important;
 }
 
-li {
-    margin: 8px;
-    color: white;
-}
-
-h2 {
-    margin: 15px;
-    font-size: 18px;
-    margin-top: 0;
-}
-
-p{
+.Strong {
     margin-left: 1%;
+    font-weight: bolder;
 }
 
 .Images {
@@ -91,13 +100,13 @@ p{
     margin-left: auto;
 }
 
-.ImagesGauche{
+.ImagesGauche {
     display: block;
-     margin-left: 30%;
+    margin-left: 10%;
 }
 
-.ImagesDroite{
+.ImagesDroite {
     display: block;
-    margin-right: 30%;
+    float: right;
+    margin-right: 10%;
 }
-
