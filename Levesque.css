@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
-    box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
     scroll-behavior: smooth;
 }
@@ -28,7 +27,7 @@ body {
     top: 1.5%;
     width: 15%;
     height: 100%;
-    margin-top: 4.2%;
+    margin-top: 4.1%;
     border: 2px solid darkred;
     font-size: 5px;
     font-weight: 600;
@@ -52,6 +51,7 @@ body {
 #contenu {
     height: 100%;
     margin-left: 15%;
+    overflow: auto;
     font-size: 14px;
     background: lightyellow;
 }
@@ -103,6 +103,29 @@ li a:hover {
     background: #1e1e1e!important;
 }
 
+table {
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid orange;
+    table-layout: fixed;
+    font-size: 15px;
+}
+
+tr th {
+    border: 1px solid black;
+}
+
+.Blue {
+    border: 1px solid steelblue;
+    font-weight: bolder;
+}
+
+.Red {
+    border: 1px solid red;
+    font-weight: bolder;
+}
+
 .Strong {
     margin-left: 1%;
     font-weight: bolder;
@@ -122,6 +145,13 @@ li a:hover {
 .ImagesDroite {
     display: block;
     float: right;
+    margin-right: 12%;
+}
+
+.ImagesDroite_Centre {
+    display: block;
+    float: right;
+    margin-top: 6%;
     margin-right: 12%;
 }
 
